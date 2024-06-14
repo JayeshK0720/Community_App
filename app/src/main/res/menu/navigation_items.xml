@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/optProfile"
+        android:title="Profile"
+        android:icon="@drawable/usericon"/>
+
+    <item
+        android:id="@+id/optPayments"
+        android:title="Payments"
+        android:icon="@drawable/paymentslogo"/>
+
+    <item
+        android:id="@+id/optEnquiry"
+        android:title="Enquiry"
+        android:icon="@drawable/enquirylogo"/>
+
+    <item
+        android:id="@+id/optFeedback"
+        android:title="Feedback"
+        android:icon="@drawable/feedbacklogo"/>
+
+    <item
+        android:id="@+id/optAbtus"
+        android:title="About Us"
+        android:icon="@drawable/aboutuslogo"/>
+
+
+    <item
+        android:id="@+id/optFAQ"
+        android:title="FAQ"
+        android:icon="@drawable/faqlogo"/>
+
+    <item
+        android:id="@+id/optTerms"
+        android:title="Terms and Conditions"
+        android:icon="@drawable/termsconditions"/>
+
+    <item
+        android:id="@+id/optShare"
+        android:title="Settings"
+        android:icon="@drawable/shareicon"/>
+
+    </group>
+
+<!--    <item-->
+<!--        android:id="@+id/optSettings"-->
+<!--        android:title="Settings"-->
+<!--        android:icon="@drawable/icons_settings"/>-->
+
+
+    <item
+        android:id="@+id/optLogout"
+        android:title="Log out"
+        android:icon="@drawable/logouticon"/>
+
+</menu>
+
+
+<!--        <item-->
+<!--            android:id="@+id/optLogout"-->
+<!--            android:title="Log out"/>-->

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context=".MainActivity"
+    android:paddingTop="100dp"
+    android:backgroundTint="@color/purple_200">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/border"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/textView_areyou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Are You.."
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:paddingTop="30dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <ImageView
+            android:id="@+id/imageView_customer"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="180dp"
+            app:srcCompat="@drawable/usericon"
+            android:layout_below="@id/textView_areyou"/>
+
+        <TextView
+            android:id="@+id/textView_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView_customer"
+            android:paddingTop="20dp"
+            android:text="Customer"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <ImageView
+            android:id="@+id/imageView_merchant"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="35dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="180dp"
+            app:srcCompat="@drawable/locationlogo"
+            android:layout_below="@id/textView_customer"/>
+
+        <TextView
+            android:id="@+id/textView_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView_merchant"
+            android:paddingTop="20dp"
+            android:text="Merchant"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:paddingBottom="50dp"/>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

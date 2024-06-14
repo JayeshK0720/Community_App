@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/abtImgview"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/applogo"
+        android:layout_marginTop="40dp"/>
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="About Us"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Description -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/abtTxtview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_gray"
+            android:padding="20dp"
+            android:text="Welcome to our app! We are a team of passionate developers who strive to create innovative and user-friendly mobile applications. Our mission is to provide a seamless and enjoyable experience for our users. We believe that technology can improve people's lives, and we are committed to making a positive impact through our work. Thank you for choosing our app. We hope you enjoy using it as much as we enjoyed building it!"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="normal"
+            android:lineSpacingExtra="8dp"
+            android:fontFamily="sans-serif-light" />
+    </ScrollView>
+
+</LinearLayout>
