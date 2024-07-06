@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/light_gray"
-        tools:context=".RegisterActivity">
+        tools:context=".customer_info">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -347,6 +347,7 @@
                             android:layout_marginTop="50dp"
                             android:layout_marginBottom="50dp"
                             android:layout_marginRight="20dp"
+                            android:layout_marginLeft="15dp"
                             android:text="Cancel" />
 
                         <Button

@@ -22,11 +22,11 @@
         android:visibility="gone"
         android:paddingTop="8dp" />
 
-    <Button
-        android:id="@+id/toggleButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Show Answer"
-        android:layout_gravity="end"
-        android:marginTop="8dp" />
+<!--    <Button-->
+<!--        android:id="@+id/toggleButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Show Answer"-->
+<!--        android:layout_gravity="end"-->
+<!--        android:marginTop="8dp" />-->
 </LinearLayout>

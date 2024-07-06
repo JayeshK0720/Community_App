@@ -22,7 +22,7 @@
             android:layout_marginTop="20sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Share our app with your college friends"
+            android:text="Share our app with your friends"
             android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#2962FF"/>

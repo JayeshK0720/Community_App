@@ -11,4 +11,9 @@
     </style>
 
     <style name="Theme.Community_App" parent="Base.Theme.Community_App" />
+
+    <style name="Theme.Community_App.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Community_App.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

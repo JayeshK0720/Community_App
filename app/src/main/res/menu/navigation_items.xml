@@ -40,7 +40,7 @@
 
     <item
         android:id="@+id/optShare"
-        android:title="Settings"
+        android:title="Share"
         android:icon="@drawable/shareicon"/>
 
     </group>

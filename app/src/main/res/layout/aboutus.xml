@@ -10,7 +10,7 @@
 
     <!-- App Logo -->
     <ImageView
-        android:id="@+id/abtImgview"
+        android:id="@+id/abtImgView"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="@drawable/applogo"
@@ -33,7 +33,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp">
         <TextView
-            android:id="@+id/abtTxtview"
+            android:id="@+id/abtTxtView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/light_gray"

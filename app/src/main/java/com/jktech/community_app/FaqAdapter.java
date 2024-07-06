@@ -55,7 +55,7 @@ public class FaqAdapter extends RecyclerView.Adapter<FaqAdapter.FaqViewHolder> {
             super(itemView);
             questionTextView = itemView.findViewById(R.id.questionTextView);
             answerTextView = itemView.findViewById(R.id.answerTextView);
-            toggleButton = itemView.findViewById(R.id.toggleButton);
+//            toggleButton = itemView.findViewById(R.id.toggleButton);
         }
     }
 }

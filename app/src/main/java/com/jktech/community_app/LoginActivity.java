@@ -185,7 +185,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void navigateToHome() {
-        Intent intent = new Intent(LoginActivity.this, design.class);
+        Intent intent = new Intent(LoginActivity.this, AskPage.class);
         startActivity(intent);
 //        finish();
     }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "789268242566",
+    "project_id": "community-app-388e9",
+    "storage_bucket": "community-app-388e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789268242566:android:5cc86139e2730c33f2b107",
+        "android_client_info": {
+          "package_name": "com.jktech.community_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB93P8mhrMsIMuV776YeeupoKoPBh2vrfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

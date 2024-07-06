@@ -14,8 +14,8 @@ public class aboutus extends AppCompatActivity {
         setContentView(R.layout.aboutus);
 
         // Initialize views
-        ImageView imageView = findViewById(R.id.abtImgview);
-        TextView textView = findViewById(R.id.abtTxtview);
+        ImageView imageView = findViewById(R.id.abtImgView);
+        TextView textView = findViewById(R.id.abtTxtView);
 
         // You can add validation here if needed
         // For example, checking if the text in TextView is not empty or if ImageView is set to a valid image resource

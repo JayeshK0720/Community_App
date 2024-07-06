@@ -12,6 +12,44 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Community_App"
         tools:targetApi="31">
+
+        <activity android:name=".ForgotPasswordActivity"
+            android:exported="false"/>
+        <activity android:name=".design"
+            android:exported="false"/>
+        <activity
+            android:name=".aboutus"
+            android:exported="false" />
+        <activity
+            android:name=".contactus"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FaqActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FaqAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UploadProfilePictureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateEmailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".shareapp"
+            android:exported="false" />
+        <activity
+            android:name=".termcondi"
+            android:exported="false" />
         <activity
             android:name=".logout"
             android:exported="false" />
