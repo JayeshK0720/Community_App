@@ -93,7 +93,7 @@
                     <EditText
                         android:id="@+id/editText_register_full_name"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="48dp"
                         android:layout_below="@id/textView_register_full_name"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
@@ -101,7 +101,7 @@
                         android:background="@android:color/transparent"
                         android:hint="Enter your full name"
                         android:inputType="textPersonName"
-                        android:padding="6dp"
+                        android:padding="16dp"
                         android:textSize="16sp" />
                 </RelativeLayout>
 
@@ -206,7 +206,7 @@
                     <EditText
                         android:id="@+id/editText_register_dob"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="48dp"
                         android:layout_below="@id/textView_register_dob"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
@@ -214,7 +214,7 @@
                         android:background="@android:color/transparent"
                         android:hint="Enter your DOB"
                         android:inputType="date"
-                        android:padding="6dp"
+                        android:padding="16dp"
                         android:textSize="16sp" />
                 </RelativeLayout>
 
@@ -254,7 +254,7 @@
                     <EditText
                         android:id="@+id/editText_register_mobile"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="48dp"
                         android:layout_below="@id/textView_register_mobile"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
@@ -262,7 +262,7 @@
                         android:background="@android:color/transparent"
                         android:hint="Enter your mobile no. (without +91)"
                         android:inputType="phone"
-                        android:padding="6dp"
+                        android:padding="16dp"
                         android:textSize="16sp" />
                 </RelativeLayout>
 
@@ -302,7 +302,7 @@
                     <EditText
                         android:id="@+id/editText_register_address"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="48dp"
                         android:layout_below="@id/textView_register_address"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
@@ -310,7 +310,7 @@
                         android:background="@android:color/transparent"
                         android:hint="Enter Your Address"
                         android:inputType="text|number"
-                        android:padding="6dp"
+                        android:padding="16dp"
                         android:textSize="16sp" />
                 </RelativeLayout>
 

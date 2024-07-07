@@ -8,6 +8,9 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="android:statusBarColor">#000</item>
         <!--        <item name="menuIcon">@drawable/baseline_menu_24</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
     <style name="Theme.Community_App" parent="Base.Theme.Community_App" />

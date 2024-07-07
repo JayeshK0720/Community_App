@@ -96,9 +96,10 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@id/imageViewName"
+                        android:hint="Update your Name"
                         android:background="@android:color/transparent"
                         android:inputType="textPersonName"
-                        android:padding="6dp"
+                        android:padding="16dp"
                         android:textSize="16sp" />
                 </RelativeLayout>
 
@@ -207,8 +208,9 @@
                         android:layout_marginBottom="10dp"
                         android:layout_toEndOf="@id/imageViewMobile"
                         android:background="@android:color/transparent"
+                        android:hint="Update your Mobile"
                         android:inputType="phone"
-                        android:padding="6dp"
+                        android:padding="16dp"
                         android:textSize="16sp" />
                 </RelativeLayout>
 

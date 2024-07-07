@@ -151,7 +151,7 @@
                         android:background="@android:color/transparent"
                         android:hint="enter your password"
                         android:inputType="textPassword"
-                        android:padding="6dp"
+                        android:padding="16dp"
                         android:textSize="16sp" />
 
                     <ImageView
@@ -247,7 +247,7 @@
                         android:background="@android:color/transparent"
                         android:hint="enter your new email address"
                         android:inputType="textEmailAddress"
-                        android:padding="6dp"
+                        android:padding="16dp"
                         android:textSize="16sp" />
                 </RelativeLayout>
 

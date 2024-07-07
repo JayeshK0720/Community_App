@@ -22,6 +22,7 @@
             android:src="@drawable/backbutton"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:contentDescription="Back"
+            android:padding="8dp"
             app:tint="#FFFFFF" />
 
         <TextView
